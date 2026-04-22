@@ -1,0 +1,4 @@
+.venv/
+jcommonsenseqa_results/
+__pycache__/
+*.pyc
