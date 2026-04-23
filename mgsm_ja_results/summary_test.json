@@ -1,0 +1,12 @@
+{
+  "model": "gemma4-e4b-it",
+  "dataset": "CohereLabs/global-mgsm",
+  "config": "ja",
+  "split": "test",
+  "total": 250,
+  "correct": 185,
+  "invalid": 0,
+  "accuracy": 0.74,
+  "elapsed_sec": 608.3912687301636,
+  "predictions_path": "/home/ubuntu/gemma4/mgsm_ja_results/predictions_test.jsonl"
+}
