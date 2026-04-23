@@ -2,24 +2,24 @@
 
 Gemma 4 を `vLLM` で起動し、`JCommonsenseQA` を評価するための最小構成です。
 
-## Files
+## ファイル
 
 - `start_vllm_gemma4.sh`: Gemma 4 を `vllm serve` で起動
 - `evaluate_jcommonsenseqa.py`: `sbintuitions/JCommonsenseQA` を評価
 
-## Setup
+## セットアップ
 
 ```bash
 conda activate gemma4
 ```
 
-## Start server
+## サーバー起動
 
 ```bash
 bash /home/ubuntu/gemma4/vllm_jcommonsenseqa/start_vllm_gemma4.sh
 ```
 
-## Smoke test
+## 軽い動作確認
 
 ```bash
 conda activate gemma4
@@ -28,7 +28,7 @@ python /home/ubuntu/gemma4/vllm_jcommonsenseqa/evaluate_jcommonsenseqa.py \
   --limit 20
 ```
 
-## Full validation
+## 検証データ全件評価
 
 ```bash
 conda activate gemma4

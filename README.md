@@ -1,25 +1,25 @@
-# Gemma 4 bootstrap
+# Gemma 4 セットアップ
 
-This directory contains the minimal files used to set up a local Gemma 4 inference environment.
+このディレクトリには、ローカルで Gemma 4 の推論環境を構築するための最小構成ファイルが入っています。
 
-## Target layout
+## 想定構成
 
 - `/home/ubuntu/gemma4/run_gemma4.py`
 - `/home/ubuntu/gemma4/README.md`
 - `conda` environment: `gemma4`
 
-## Default model
+## デフォルトモデル
 
 - `google/gemma-4-E4B-it`
 
-## Quick run
+## すぐに試す
 
 ```bash
 conda activate gemma4
 python /home/ubuntu/gemma4/run_gemma4.py --prompt "日本語で自己紹介してください。"
 ```
 
-## Smaller smoke test
+## 軽い動作確認
 
 ```bash
 conda activate gemma4
